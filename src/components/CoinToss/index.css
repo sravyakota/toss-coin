@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg1 {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg2 {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resultsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #a35200;
+}
+.para {
+  font-size: 22px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #334155;
+}
+.im {
+  width: 200px;
+  height: 200px;
+}
+.para2 {
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #334155;
+  margin: 20px;
+}
+.button {
+  height: 32px;
+  width: 100px;
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 8px;
+  font-size: 16px;
+  font-family: 'roboto';
+  border-radius: 10px;
+}
